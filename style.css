@@ -1,0 +1,206 @@
+@import url('https://fonts.cdnfonts.com/css/broadway');
+body{
+	margin: 70px auto;
+}
+/* Main Board */
+.boardborder{
+	margin: auto;
+	padding:50px;
+	background: url(images/board-border.png);
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	border-radius: 25px;
+	position: relative;
+	}
+
+	.Branding{
+	color: white;
+	font-family:broadway;
+	font-size: 30px;
+	width: 100%;
+	position: absolute;
+	left: 62px;
+	bottom: 4px;
+	z-index: 1;
+	}
+
+	.board{
+	width:400px;
+	height:400px;
+	background-image:url(images/board-background.jpg);
+	background-size:cover;
+	position:relative;
+	border-radius: 25px;
+	}
+
+
+/*Holes*/
+.hole{
+	background-color:black;
+	position:absolute;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	}
+
+	#hole1{
+	right: 0px;
+	}
+	#hole2{
+	bottom: 0px;
+	}
+	#hole3{
+	bottom: 0px;
+	right:0px;
+	}
+
+/*lines*/
+.line {
+	width: 260px;
+	height: 20px;
+	border: 2px solid black;
+	border-radius: 25px;
+	text-align:center;
+	font-size:20px;
+	font-weight: bold;
+	position: relative;
+	}
+
+	#line1 {
+	position: absolute;
+	top: 35px;
+	left: 68px;
+	transform:rotate(180deg);
+	}
+
+	#line2 {
+	position: absolute;
+	bottom: 31px;
+	left: 68px;
+	}
+
+	#line3 {
+	position: absolute;
+	transform: rotate(90deg);
+	transform-origin: bottom left;
+	left: 35px;
+	top: 46px;
+	}
+
+	#line4 {
+	position: absolute;
+	transform: rotate(-90deg);
+	transform-origin: bottom right;
+	right: 31px;
+	top: 46px;
+	}
+
+	#right{
+		left: 240px;
+	}
+
+
+/*red circles*/
+.red {
+	width: 20px;
+	height: 20px;
+	background-color:indianred;
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid;
+	top: -2px;
+	left: -2px;
+	}
+
+/*Arrows*/
+.arrow {
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	position: absolute;
+	}
+	
+	#arrow1 {
+	top: 52px;
+	left: 52px;
+	transform: rotate(45deg);
+	transform-origin: top left;
+	}
+	
+	#arrow2 {
+	top: 52px;
+	right: 48px;
+	transform: rotate(-45deg);
+	transform-origin: top right;
+	}
+	
+	#arrow3 {
+	bottom: 48px;
+	left: 52px;
+	transform: rotate(-45deg);
+	transform-origin: top left;
+	}
+	
+	#arrow4 {
+	bottom: 48px;
+	right: 48px;
+	transform: rotate(45deg);
+	transform-origin: top right;
+	}
+	
+	
+	
+	/*Circle of arrows*/
+	.sidecircle {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	border: 1px solid rgba(0, 0, 0, 0.62);
+	background: rgba(0,0,0,0.15);
+	}
+	#circle1 {
+	top: 100px;
+	left: 100px;
+	}
+	#circle2 {
+	top: 100px;
+	right: 96px;
+	}
+	#circle3 {
+	right: 96px;
+	bottom: 96px;
+	}
+	#circle4 {
+	bottom: 96px;
+	left: 100px;
+	}
+
+
+/*Center Circle*/
+.centercircle{
+	width:100px;
+	height:100px;
+	border: 10px double rgba(7, 7, 7, 0.51);
+	border-radius: 50%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+	#center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    border: 1px solid rgba(0, 0, 0, 0.58);
+    background-color: rgba(43, 46, 49, 0.89);
+	position: absolute;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+}
+
+
