@@ -151,7 +151,7 @@ body{
 	
 	
 	
-	/*Circle of arrows*/
+	/*Circle of arrows
 	.sidecircle {
 	position: absolute;
 	width: 40px;
@@ -159,7 +159,7 @@ body{
 	border-radius: 40px;
 	border: 1px solid rgba(0, 0, 0, 0.62);
 	background: rgba(0,0,0,0.15);
-	}
+	} */
 	#circle1 {
 	top: 100px;
 	left: 100px;
